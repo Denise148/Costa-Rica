@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .grid {
@@ -24,6 +24,10 @@ body {
 .grid-3-column-1-2-2 {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .text-center {
   text-align: center;
 }
@@ -32,6 +36,9 @@ body {
   margin: 30px 0;
 }
 .card-header {
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 30px;
@@ -198,5 +205,11 @@ footer a {
     padding: 30px;
   }
   .img-responsive {
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
