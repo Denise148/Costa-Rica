@@ -69,7 +69,7 @@ section.secondary {
   background: #f8f8f8;
 }
 header {
-  background-image: linear-gradient (rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("../images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
